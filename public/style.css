@@ -1,0 +1,52 @@
+/* this file is loaded by index.html and styles the page */
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  cursor: url("https://cdn.glitch.com/bea5ce75-56b5-4eb1-acc9-9e1695a53d59%2Fcursor-pink.svg?v=1597630637387"),
+    auto !important;
+}
+
+.cursor {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 24px;
+  height: 24px;
+  background-image: url("https://cdn.glitch.com/bea5ce75-56b5-4eb1-acc9-9e1695a53d59%2Fcursor-orange.svg?v=1597630638971");
+}
+
+body {
+  font-family: sans-serif;
+  margin: 2em 1em;
+  line-height: 1.5em;
+  font-weight: 300;
+  background: #ee6a5b;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+}
+
+h1 {
+  font-style: italic;
+  color: #fff;
+  font-weight: 100;
+  font-family: "Inter", sans-serif;
+}
+
+input {
+  border: 1px solid silver;
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  color: #fff;
+  background: transparent;
+}
+input:focus {
+  outline: none;
+}
